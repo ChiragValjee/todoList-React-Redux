@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url("./images/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.heading {
+    text-align: center;
+    Padding: 30px;
+    font-family: "Arial";
+    letter-spacing: 2px;
+
+}
+.form {
+    margin-bottom: 32px;
+    text-align: center;
+
+}
+.inputText {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px;
+    border: solid #a459d1;
+    outline: none;
+    width: 570px;
+    background: transparent;
+    color: black;
+
+}
+.addButton {
+    margin-left: 10px;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background-color: #a459d1;
+
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.editButton {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(255, 184, 76);
+
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    vertical-align: middle;
+    position: relative;
+    margin-right: 8px;
+
+
+}
+
+.deleteButton {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(241, 103, 103);
+
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 20px;
+    vertical-align: middle;
+    position: relative;
+    justify-content: right;
+}
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    margin: 8px auto;
+    color: #a459d1;
+    font-weight: bold;
+    background: rgb(250, 248, 248);
+
+    padding: 5px;
+    border-radius: 50px;
+    width: 50%;
+    text-align: left;
+    justify-content: space-between; /* Align to the left */
+
+}
+
+.todoContent {
+    text-align: left;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.checkBox {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    vertical-align: middle;
+    position: relative;
+    background: rgb(245, 234, 234);
+    -webkit-box-shadow: 0px 0px 0px 1px rgb(164, 89, 209);
+    -moz-box-shadow: 0px 0px 0px 1px rgb(164, 89, 209);
+    box-shadow: 0px 0px 0px 1px rgb(164, 89, 209);
+}
+
+.buttons {
+    justify-content: center;
+
+}
